@@ -15,6 +15,6 @@ function save() {
 }
 
 function reset() {
-    let resetStr = countStr = 0
+    let resetStr = countStr += 0
     saveEl.textContent = resetStr
 }
