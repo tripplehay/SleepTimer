@@ -1,15 +1,17 @@
 body {
-    background-image: url("yarn.jpeg");
+    background-image: url("sleep-timer.jpg");
     background-size: cover;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     height: 100vh;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .container {
+    
+    margin: 180px 90px 180px 110px;
     background: white;
     max-width: 80%;
-    margin: auto;
     border: 3px solid black;
     border-radius: 10px;
 }
@@ -48,3 +50,6 @@ button {
     font-weight: bold;
 }
 
+#reset-btn{
+    background: skyblue;
+}
